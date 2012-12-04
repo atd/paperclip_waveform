@@ -1,3 +1,5 @@
-= PaperclipWaveform
+= Paperclip Waveform
 
-This project rocks and uses MIT-LICENSE.
+Paperclip Waveform is a Paperclip post-processor. It generates a png file
+with the waveform from an audio attachment.
+
