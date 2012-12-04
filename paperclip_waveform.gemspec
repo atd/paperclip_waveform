@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Antonio Tapiador"]
   s.email       = ["atapiador@dit.upm.es"]
   s.homepage    = "https://github.com/atd/paperclip_waveform"
-  s.summary     = "Paperclip post-processor making a waveform image from audio files."
+  s.summary     = "Paperclip post-processor that generates a waveform image from audio files."
   s.description = "Paperclip Waveform is a Paperclip post-processor that creates a png file with the waveform of the audio attachment ."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
