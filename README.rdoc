@@ -3,3 +3,17 @@
 Paperclip Waveform is a Paperclip post-processor. It generates a png file
 with the waveform from an audio attachment.
 
+== Usage
+
+Add the gem to your Gemfile:
+
+  gem 'paperclip_waveform'
+
+And the style to your audio:
+
+  class Audio < ActiveRecord::Base
+    has_attached_file :file,
+                      styles: { waveform: { format: :png, convert_options: { color: "transparent" } } },
+                      processors: [ :waveform ]
+
+Take a look at https://github.com/benalavi/waveform/blob/master/bin/waveform for available options
