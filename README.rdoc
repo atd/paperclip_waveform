@@ -1,13 +1,17 @@
 = Paperclip Waveform
 
 Paperclip Waveform is a Paperclip post-processor. It generates a png file
-with the waveform from an audio attachment.
+with the waveform from an audio attachment, using the fantastic waveform gem https://github.com/benalavi/waveform
 
 == Usage
 
 Waveform depends on ruby-audio, which in turn depends on libsndfile.
 
-Build libsndfile from (http://www.mega-nerd.com/libsndfile/), install it via apt (sudo apt-get install libsndfile1-dev), libsndfile in macports, etc...
+Build libsndfile from (http://www.mega-nerd.com/libsndfile/), install it via apt:
+
+  sudo apt-get install libsndfile1-dev
+
+libsndfile in macports, etc...
 
 ffmpeg is also required to convert original files to WAV
 
