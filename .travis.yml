@@ -2,4 +2,4 @@ language: ruby
 rvm:
   - 1.9.3
 before_install:
-  - sudo apt-get install -qq libsndfile-dev
+  - sudo apt-get install -qq libsndfile-dev ffmpeg

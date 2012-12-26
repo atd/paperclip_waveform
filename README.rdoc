@@ -5,7 +5,15 @@ with the waveform from an audio attachment.
 
 == Usage
 
-Add the gem to your Gemfile:
+Waveform depends on ruby-audio, which in turn depends on libsndfile.
+
+Build libsndfile from (http://www.mega-nerd.com/libsndfile/), install it via apt (sudo apt-get install libsndfile1-dev), libsndfile in macports, etc...
+
+ffmpeg is also required to convert original files to WAV
+
+  sudo apt-get install ffmpeg
+
+Then add the gem to your Gemfile:
 
   gem 'paperclip_waveform'
 
