@@ -25,7 +25,7 @@ And the style to your audio:
 
   class Audio < ActiveRecord::Base
     has_attached_file :file,
-                      styles: { waveform: { format: :png, convert_options: { color: "transparent" } } },
+                      styles: { waveform: { format: :png, convert_options: { color: :transparent } } },
                       processors: [ :waveform ]
 
 Take a look at https://github.com/benalavi/waveform/blob/master/bin/waveform for available options
